@@ -1,0 +1,7 @@
+Scenario,Username,Password,Expected Outcome
+Valid Credentials,Valid,Valid,Login successful
+Invalid Username,Invalid,Valid,Login failed (invalid username)
+Invalid Password,Valid,Invalid,Login failed (invalid password)
+Empty Username,Empty,Valid,Login failed (empty username)
+Empty Password,Valid,Empty,Login failed (empty password)
+Empty Username & Password,Empty,Empty,Login failed (empty username and password)
